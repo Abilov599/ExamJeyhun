@@ -1,0 +1,35 @@
+header {
+  .container {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .site-logo {
+      h1 {
+        color: #1fa67a;
+      }
+    }
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        li {
+          display: flex;
+          align-items: center;
+          a {
+            padding: 25px 20px;
+            color: gray;
+            &:hover {
+              color: white;
+              background-color: #1fa67a;
+            }
+            &.active {
+              color: white;
+              background-color: #1fa67a;
+            }
+          }
+        }
+      }
+    }
+  }
+}

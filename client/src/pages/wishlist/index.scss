@@ -1,0 +1,75 @@
+.wishlist {
+  .container {
+    .card-holder {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .card {
+        max-width: 800px;
+        padding: 10px 20px;
+        .price {
+          margin-top: 10px;
+          font-size: 18px;
+          color: #1fa67a;
+          text-align: center;
+        }
+        h1 {
+          font-size: 32px;
+          margin-bottom: 8px;
+        }
+        i {
+          color: #1fa67a;
+          margin-right: 10px;
+        }
+        span {
+          color: #1fa67a;
+        }
+        div {
+          display: flex;
+          div {
+            width: 50%;
+            margin-right: 20px;
+            img {
+              border-radius: 8px;
+              width: 100%;
+            }
+          }
+          .text {
+            display: flex;
+            flex-direction: column;
+            p {
+              color: gray;
+              margin-bottom: 20px;
+            }
+            button {
+              color: red;
+              width: 40%;
+              font-size: 15px;
+              padding: 5px 10px;
+              border-radius: 5px;
+              border: none;
+              &:hover {
+                color: white;
+                background-color: red;
+              }
+            }
+            a {
+              width: 40%;
+              font-size: 15px;
+              padding: 5px 10px;
+              border-radius: 5px;
+              color: #1fa67a;
+              text-align: center;
+              border: #1fa67a 1px solid;
+              margin-bottom: 8px;
+              &:hover {
+                color: white;
+                background-color: #1fa67a;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

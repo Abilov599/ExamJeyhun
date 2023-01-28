@@ -1,0 +1,28 @@
+.details-page {
+  .container {
+    padding: 100px;
+    div {
+      display: flex;
+      justify-content: space-between;
+      div {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+      .detail-text {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        a {
+          text-align: center;
+          border-radius: 5px;
+          width: 100px;
+          color: white;
+          padding: 10px;
+          background-color: #1fa67a;
+        }
+      }
+    }
+  }
+}

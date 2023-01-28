@@ -1,0 +1,40 @@
+#add-blog {
+  padding: 100px 0;
+  .container {
+    display: flex;
+    justify-content: center;
+    form {
+      div {
+        color: red;
+        font-size: 18px;
+      }
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      max-width: 400px;
+      h1 {
+        color: #1fa67a;
+      }
+      input {
+        font-size: 18px;
+        padding: 10px 20px;
+      }
+      button {
+        cursor: pointer;
+        border: 1px white solid;
+        color: white;
+        padding: 15px 25px;
+        background-color: #1fa67a;
+        font-size: 18px;
+        border-radius: 5px;
+        &:hover {
+          color: #1fa67a;
+          background-color: white;
+          border: 1px solid #1fa67a;
+        }
+      }
+    }
+  }
+}
